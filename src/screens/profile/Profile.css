@@ -1,0 +1,183 @@
+/* style for profile image */
+.profile-image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 35px;
+}
+
+/* style for profile summary*/
+.profile-summary {
+    margin: 50px 0 0 270px;
+}
+
+.profile-summary-1 {
+    margin: 80px 0 0 10px;
+}
+
+/* stle for flex container */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+     width: 70%;
+}
+
+/* style for spacing */
+.spacing {
+    margin-left: 70px;
+}
+
+/* style for top spacing*/
+.top-spacing {
+    margin-top: 20px;
+}
+
+.top {
+    top: 20%;
+}
+
+.bottom {
+    bottom: 80%;
+}
+
+/* style for display block */
+.dispBlock {
+    display: block;
+}
+
+/* style for display none */
+.dispNone {
+    display: none;
+}
+
+.red {
+    color: red;
+}
+
+.image-margins {
+    margin: 0 100px 0 100px
+}
+
+/* style for image modal */
+.image-modal {
+    top: 20px;
+    bottom: 20px;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+
+/* style for modal left */
+.modal-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-left: 10;
+    margin-top: 10
+}
+
+/* style for clicked image */
+.clicked-image {
+    margin-top: 10px;
+    height: 80%;
+    width: 95%;
+}
+
+/* style for modal right */
+.modal-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+/* style for right top */
+.right-top {
+    height: 15%;
+    margin-left: 10px;
+}
+
+/* style for right middle */
+.right-middle {
+    margin-top: 10px;
+    height: 50%;
+    margin-left: 10px;
+}
+
+/* style for right bottom */
+.right-botton {
+    height: 10%;
+    margin-left: 10px;
+}
+
+/* style for modal profile icon */
+.modal-profile-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* style for modal username */
+.modal-username {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+/* style for image hashtags */
+.image-hashtags {
+    color: rgb(122,188,255);
+}
+
+.image-liked-icon{
+    color:red;
+}
+
+.image-like-icon{
+    color: black;
+}
+
+/* style for comments block */
+.comments-block {
+    margin-top: 15px;
+}
+
+/* style for comment display */
+.comment-display{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+/* style for comment text */
+.comment-text{
+    padding-left:10px;
+    width:100%;
+}
+
+/* style for comment username */
+.comment-username{
+    font-size: inherit;
+}
+
+/* style for media component */
+@media (max-width: 992px) {
+    .flex-container {
+        flex-direction: row;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 90%;
+    }
+    .image-grid-item {
+        margin: 8px;
+    }
+}
